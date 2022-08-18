@@ -1,0 +1,1 @@
+sbcl --noinform --non-interactive --load build.lisp

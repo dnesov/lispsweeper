@@ -1,0 +1,6 @@
+(defun main () 
+    (setq size-x 10)
+    (setq size-y 10)
+    (setq bomb-chance 5)
+    (display-board size-x size-y (represent-board size-x size-y bomb-chance))
+)
