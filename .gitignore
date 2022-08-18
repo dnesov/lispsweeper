@@ -25,3 +25,6 @@
 
 # Built Visual Studio Code Extensions
 *.vsix
+
+# Built binaries
+lispsweeper
