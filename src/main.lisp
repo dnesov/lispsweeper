@@ -1,6 +1,10 @@
 (defun main () 
-    (setq size-x 10)
-    (setq size-y 10)
-    (setq bomb-chance 5)
-    (display-board size-x size-y (represent-board size-x size-y bomb-chance))
+    ; Constants
+    (defconstant BOARD-SIZE-X 5)
+    (defconstant BOARD-SIZE-Y 5)
+    (defconstant BOMB-CHANCE 2)
+
+    (setq board (create-board BOARD-SIZE-X BOARD-SIZE-Y BOMB-CHANCE))
+
+    (display-board board)
 )
